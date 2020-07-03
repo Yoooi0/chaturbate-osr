@@ -1,0 +1,76 @@
+{
+    "room": "jul_la_la",
+    "delay": 5,
+    "tipmenu": [
+        {
+            "amount": [111],
+            "duration": 25,
+            "actions": [
+                {
+                    "axis": "L0",
+                    "motion": "triangle",
+                    "frequency": 0.66
+                },
+                {
+                    "axis": "R1",
+                    "motion": "sine",
+                    "frequency": 2
+                }
+            ]
+        },
+        {
+            "amount": [1, 14],
+            "duration": 1,
+            "actions": [
+                {
+                    "axis": "L0",
+                    "motion": "sine",
+                    "frequency": 1
+                }
+            ]
+        },
+        {
+            "amount": [15, 99],
+            "duration": 5,
+            "actions": [
+                {
+                    "axis": "L0",
+                    "motion": "bounce",
+                    "frequency": 1
+                }
+            ]
+        },
+        {
+            "amount": [100, 199],
+            "duration": 5,
+            "actions": [
+                {
+                    "axis": "L0",
+                    "motion": "sharp",
+                    "frequency": 1
+                }
+            ]
+        },
+        {
+            "amount": [500, 999],
+            "duration": 60,
+            "actions": [
+                {
+                    "axis": "L0",
+                    "motion": "triangle",
+                    "frequency": 0.66
+                },
+                {
+                    "axis": "R1",
+                    "motion": "sine",
+                    "frequency": 2
+                },
+                {
+                    "axis": "R2",
+                    "motion": "cosine",
+                    "frequency": 2
+                }
+            ]
+        }
+    ]
+}
