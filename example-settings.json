@@ -9,7 +9,8 @@
                 {
                     "axis": "L0",
                     "motion": "triangle",
-                    "frequency": 0.66
+                    "frequency": 0.66,
+                    "delay": 1
                 },
                 {
                     "axis": "R1",
@@ -67,8 +68,9 @@
                 },
                 {
                     "axis": "R2",
-                    "motion": "cosine",
-                    "frequency": 2
+                    "motion": "sine",
+                    "frequency": 2,
+                    "offset": 0.5
                 }
             ]
         }
